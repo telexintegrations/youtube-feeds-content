@@ -76,7 +76,7 @@
           "options": ["Super-Admin", "Admin", "Manager", "Developer"]
         }
       ],
-      "tick_url": "URL for subscribing to Telex's clock.",
-      "target_url": "Optional URL for getting data from the Telex channel"
+      "tick_url": "https://hng-stage-3-telex-integration-2.onrender.com/api/telex/youtube/content",
+      "target_url": "https://ping.telex.im/v1/webhooks/01951f1b-d166-7251-b219-af816fe74df9"
     }
   }
