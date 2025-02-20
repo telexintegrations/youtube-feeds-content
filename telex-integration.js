@@ -1,4 +1,5 @@
-{
+modules.export = {
+  
     "data": {
       "date": {
         "created_at": "2025-02-20",

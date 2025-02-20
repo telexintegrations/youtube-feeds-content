@@ -5,8 +5,6 @@ const xml2js = require("xml2js");
 const youtube_channel_id = process.env.YOUTUBE_CHANNEL_ID
 
 module.exports = async (req, res)=>{
-    const yutubeChannelId = process.env.YOUTUBE_CHANNEL_ID;
-
     let lastVideo = null;
  
     const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${youtube_channel_id}`
