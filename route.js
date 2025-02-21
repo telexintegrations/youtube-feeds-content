@@ -1,5 +1,10 @@
 const route = require('express').Router()
+const controllers = require("./controller")
 
-const checkVideo = require("./controller.js")
 
-module.exports = route.get('/youtube/content', checkVideo)
+route.get("/integration.json", controllers.telexIntegration)
+//Route Handling endpoint request
+route.post('/tick', controllers.tick)
+route.get('/youtube/content', controllers.youtubeFeed)
+
+module.exports = route
