@@ -21,7 +21,7 @@ module.exports = {
               app_name: "MyTube Feed.",
               app_url:
                 "https://ping.telex.im/v1/webhooks/01951f1b-d166-7251-b219-af816fe74df9",
-              background_color: "#HEXCODE",
+              background_color: "#fff",
             },
             integration_category: "Social Media Management",
             integration_type: "interval",
@@ -33,7 +33,6 @@ module.exports = {
               "Efficient Data Filtering.",
               "Simple Design.",
             ],
-            permissions: {},
             settings: [
               {
                 label: "key",
@@ -49,7 +48,8 @@ module.exports = {
               }
             ],
             tick_url:
-              "https://hng-stage-3-telex-integration-2.onrender.com/api/telex/youtube/content/tick"
+              "https://hng-stage-3-telex-integration-2.onrender.com/api/telex/youtube/content/tick",
+              terget_url: ""
           },
         }
     )
