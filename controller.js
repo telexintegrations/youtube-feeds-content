@@ -25,7 +25,7 @@ module.exports = {
             },
             integration_category: "Monitoring & Logging",
             integration_type: "interval",
-            is_active: false,
+            is_active: true,
             key_features: [
               "Fetches Latest youTube Channel Update.",
               "Automated Weekly update.",
