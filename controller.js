@@ -34,10 +34,22 @@ module.exports = {
             ],
             settings: [
               {
-                label: "key",
+                label: "author",
                 type: "text",
                 required: true,
-                default: "",
+                default: "authors name",
+              },
+              {
+                label: "title",
+                type: "text",
+                required: true,
+                default: "the title of the video",
+              },
+              {
+                label: "url",
+                type: "text",
+                required: true,
+                default: "link to the video",
               },
               {
                 label: "interval",
