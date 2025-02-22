@@ -1,10 +1,7 @@
 const route = require('express').Router()
-const controllers = require("./controller")
+const sendToTelex = require("./controller")
 
 
-route.get("/integration.json", controllers.telexIntegration)
-//Route Handling endpoint request
-route.post('/tick', controllers.tick)
-route.get('/youtube/content', controllers.youtubeFeed)
-
+route.get('/integration', sendToTelex.telexIntegration)
+route.get('/youtube/content/tick', sendToTelex.sendToTelex)
 module.exports = route
