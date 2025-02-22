@@ -20,13 +20,12 @@ module.exports = {
                 "https://img.freepik.com/free-photo/youtube-icon-line-connection-circuit-board_1379-892.jpg?semt=ais_hybrid",
               app_name: "MyTube Feed.",
               app_url:
-                "https://ping.telex.im/v1/webhooks/01951f1b-d166-7251-b219-af816fe74df9",
+                "https://hng-stage-3-telex-integration-2.onrender.com/api/telex/integration",
               background_color: "#fff",
             },
-            integration_category: "Social Media Management",
+            integration_category: "Monitoring & Logging",
             integration_type: "interval",
             is_active: false,
-            output: [],
             key_features: [
               "Fetches Latest youTube Channel Update.",
               "Automated Weekly update.",
