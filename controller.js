@@ -48,7 +48,7 @@ module.exports = {
             ],
             tick_url:
               "https://hng-stage-3-telex-integration-2.onrender.com/api/telex/youtube/content/tick",
-              terget_url: ""
+              target_url: ""
           },
         }
     )
