@@ -125,4 +125,6 @@ npm test
     message: "sent to telex"
 }
 ```
-
+```
+  **Response2**: On  the telex  UI, the response look like:
+  ![alt text](<>)
