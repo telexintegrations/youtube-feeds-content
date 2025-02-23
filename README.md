@@ -114,7 +114,7 @@ npm test
 ```bash
  {
               event_name: "Youtube Video Update",
-              message: telexMessage,
+              message: "telemessage",
               status: "success",
               username: "Youtube Monitor"
             }
