@@ -125,6 +125,5 @@ npm test
     message: "sent to telex"
 }
 ```
-```
-  **Response2**: On  the telex  UI, the response look like:
+**Response Image**: On  the telex  UI, the response look like:
   ![alt text](<https://github.com/telexintegrations/youtube-feeds-content.git/telexResponse.png>)
