@@ -126,4 +126,4 @@ npm test
 }
 ```
 **Response Image**: On  the telex  UI, the response look like:
-  ![alt text](<https://github.com/telexintegrations/youtube-feeds-content.git/telexResponse.png>)
+  ![alt text](<https://github.com/telexintegrations/youtube-feeds-content.git/telexintegration/youtube-feeds-content/telexResponse.png>)
