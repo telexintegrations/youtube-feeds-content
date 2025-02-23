@@ -31,8 +31,9 @@ cd hng-stage-3-telex-integration
 npm install
  ```
 4. Set the environment variables for the YouTube channel ID. Create a `.env`file in the root of the project and add the following:
-
+```bash
 YOUTUBE_CHANNEL_ID=your-youtube-channel-id
+```
 
 5. Run the application:
 ```bash
@@ -126,4 +127,4 @@ npm test
 }
 ```
 **Response Image**: On  the telex  UI, the response look like:
-  ![alt text](<https://github.com/telexintegrations/youtube-feeds-content.git/telexintegration/youtube-feeds-content/telexResponse.png>)
+  ![alt text](<>)
